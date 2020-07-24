@@ -9,20 +9,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <title>Hello, world!</title>
 </head>
 <style>
     section {
         min-height: 420px;
     }
-
 </style>
 
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#" style="font-family:Lucida Handwriting; font-size:30px;">My Blog</a>
+            <a class="navbar-brand" href="#">My Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,28 +29,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="halaman" style="font-family:Garamond; font-size:25px;">Profile <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="menu-home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pengalaman" style="color:black;font-family:Garamond; font-size:25px;">Experience</a>
+                        <a class="nav-link" href="pengalaman" style="color:black;">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="porto" style="color:black;font-family:Garamond; font-size:25px;">Fortofolio</a>
+                        <a class="nav-link" href="porto" style="color:black;">Fortofolio</a>
                     </li>
         </nav>
 
         <div class="jumbotron jumbotron-fluid"
-            style="background-image: url('asset/1000.jpg'); background-repeat: no-repeat;">
+            style="background-image: url('asset/bg.jpg');background-repeat: no-repeat;">
             <div class="container text-center">
                 <img src="asset/cici.jpeg" alt="" width="20%" class="rounded-circle img-thumbnail">
-                <h1 class="display-4 mt-4">Cici Irma Yanti</h1>
-                <p class="lead"> <b> Student | Progammer </b></p>
+                <h1 class="display-4">Cici Irma Yanti</h1>
+                <p class="lead">Student | Progammer</p>
             </div>
         </div>
     </div>
 
     <section id="about" class="about">
-        <div class="container" >
+        <div class="container">
             <div class="row mb-4">
                 <div class="col text-center">
                     <h2 style="font-family:Lucida Calligraphy">Tentang Saya</h2>
@@ -62,14 +60,11 @@
 
             <div class="row justify-content-center mb-5">
                 <div class="col-md-5 text-center">
-                    <p style="font-family:Segoe Print"> Nama saya Cici Irma Yanti, saya dari XII RPL 2, umur saya 18 tahun, saya lahir di Pekan baru
+                    <p> Nama saya Cici Irma Yanti, saya dari XII RPL 2, umur saya 18 tahun, saya lahir di Pekan baru
                         bulan juni tahun 2002. Saya anak ke-2 dari 3 bersaudara, Saya tinggal di Kp. Bojong Lio.</p>
                 </div>
-                <div class="col-md-5 text-center">
-                <p style="font-family:Segoe Print">
-                Saya bersekolah di SMK Taruna Bhakti, dengan jurusan Rekayasa
+                <div class="col-md-5 text-center"> Saya bersekolah di SMK Taruna Bhakti, dengan jurusan Rekayasa
                     Perangkat Lunak. kenapa saya bersekolah di Taruna Bhakti? Karna saya ingin memperdalam ilmu IT
-                </p> 
                 </div>
             </div>
         </div>

@@ -16,18 +16,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/profil', function () {
-    return view('menu');
-});
 Route::get('/pengalaman', function () {
     return view('experience');
 });
 Route::get('/porto', function () {
     return view('portofolio');
 });
-Route::get('/utama', function () {
+Route::get('/halaman', function () {
     return view('home');
 });
-Route::get('/halaman', function () {
-    return view('utama');
+
+Route::get('/nama/{nis}', function ($nipd) {
+    return "Menampilkan NIPD Anda : $nipd";
+})->where('nipd', '[A-Z]{2}[0-9]');
+
+
+
+Route::fallback(function(){
+    return 'Halaman Anda Kosong';
 });

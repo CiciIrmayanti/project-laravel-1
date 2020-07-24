@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -9,132 +9,87 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <title> Experience </title>
+        
+    <title>Hello, world!</title>
 </head>
-<style>
-    .header {
-        width: 100%;
-        height: 100px;
-        background: #40407a;
-        text-align: center;
-    }
-
-    .header h1 {
-        line-height: 100px;
-        font-family: Lucida Calligraphy;
-        color: white;
-    }
-
-    #main-content {
-        height: 400px;
-        background: #706fd3;
-    }
-
-    #right-sidebar {
-        height: 200px;
-        background: #40407a;
-        font-family: Lucida Calligraphy;
-        color: white;
-        font-size: 15px;
-
-    }
-
-    .gambar {
-        margin-left: 35px;
-    }
-
-    .lingkaran1 {
-        width: 200px;
-        height: 200px;
-        background: #474787;
-        border-radius: 100%;
-        margin-left: 450px;
-    }
-
-    .nama {
-        font-family: Lucida Calligraphy;
-        font-size: 25px;
-        color: white;
-    }
-    body {
-        font-family: Lucida Calligraphy;
-
-    }
-
-</style>
 
 <body>
     <div class="container">
-        <div class="header">
-            <h1> Experience </h1>
-        </div>
-    </div>
-    <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">My Blog</a>
+        <a class="navbar-brand" href="#" style="font-family:Lucida Handwriting; font-size:30px;">My Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="utama">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="halaman" style="font-family:Garamond; font-size:25px;">Profile <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="profil" style="color:black;">Profile</a>
+                        <a class="nav-link" href="pengalaman" style="color:black;font-family:Garamond; font-size:25px;">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pengalaman" style="color:black;">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="porto" style="color:black;">Fortofolio</a>
+                        <a class="nav-link" href="porto" style="color:black;font-family:Garamond; font-size:25px;">Fortofolio</a>
                     </li>
         </nav>
-    </div>
-    <div class="container">
-        <div id="main-content" class="col-sm-12">
-            <br>
-            <br>
-            <br>
-            <div class="lingkaran1">
-                <br>
-                <img src="asset/woman.png" alt="" class="gambar">
+
+        <div class="jumbotron jumbotron-fluid"
+            style="background-image: url('asset/1000.jpg');background-repeat: no-repeat;">
+            <div class="container text-center">
+                <img src="asset/user-experience.png" alt="" width="20%" class="rounded-circle img-thumbnail">
+                <h1 class="display-4">Cici Irma Yanti</h1>
+                <p class="lead">Student | Progammer</p>
             </div>
-            <p class="nama" align="center"><marquee behavior="" direction=""> Cici Irma Yanti </marquee> </p>
-            <h5  align="center" style="color:white;"> Student | Progammer </h5>
-
         </div>
-        <div id="right-sidebar" class="col-sm-12">
-        <br>
-            <table border="0px" align="center">
-                <tr>
-                    <td> <img src="asset/kunjin.jpeg" alt="" height="150px"> <br> Kunjungan Indsutri</td>
-                    <td> <img src="asset/mengaji.jpeg" alt="" height="150px"> <br> Tutor Sebaya RPL</td>
-                    <td> <img src="asset/tei.jpeg" alt="" height="150px"> <br> Tutor Sebaya TEI</td>
-                </tr>
-
-            </table>
-
-
-
-        </div>
-
     </div>
+    <section id="porto" class="porto bg-light">
 
 
-
-
-
-
-
-
-
-
-
-
+        <div class="container">
+            <div class="row mb-4 mt-4">
+                <div class="col text-center">
+                    <h2 style="font-family:Lucida Calligraphy"> Experience</h2>
+                </div>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="asset/kunjin.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kunjungan Industri</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/mengaji.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tutor Sebaya RPL</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="asset/tei.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ttutor Sebaya Tei</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+    </section>
+    </div>
 
 
     <!-- Optional JavaScript -->
